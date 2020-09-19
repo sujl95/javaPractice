@@ -1,4 +1,4 @@
-package kr.javaPractice.GodOfJava.inheritance;
+package kr.javaPractice.GodOfJava._10inheritance;
 
 public class InheritancePrint {
     public static void main(String[] args) {

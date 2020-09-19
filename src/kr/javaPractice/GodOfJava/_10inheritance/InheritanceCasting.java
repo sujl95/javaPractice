@@ -1,4 +1,4 @@
-package kr.javaPractice.GodOfJava.inheritance;
+package kr.javaPractice.GodOfJava._10inheritance;
 
 import java.util.Arrays;
 
