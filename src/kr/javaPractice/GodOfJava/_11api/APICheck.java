@@ -1,4 +1,4 @@
-package kr.javaPractice._11api;
+package kr.javaPractice.GodOfJava._11api;
 
 public class APICheck {
     public static void main(String[] args) {
