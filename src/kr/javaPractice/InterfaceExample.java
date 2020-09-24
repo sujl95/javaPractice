@@ -6,6 +6,5 @@ import kr.javaPractice.GodOfJava._13InterfaceAndAbstractAndEnum.MemberManagerImp
 public class InterfaceExample {
     public static void main(String[] args) {
         MemberManager member = new MemberManagerImpl();
-
     }
 }
