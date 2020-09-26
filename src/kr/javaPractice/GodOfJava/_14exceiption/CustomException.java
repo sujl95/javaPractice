@@ -16,6 +16,7 @@ public class CustomException {
                 throw new MyException("Number is over than 12");
             }
         } catch (MyException e) {
+            e.fillInStackTrace();
             e.printStackTrace();
         }
     }
