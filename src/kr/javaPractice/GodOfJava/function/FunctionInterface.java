@@ -8,6 +8,5 @@ public class FunctionInterface {
         Integer result = f.apply("1");
         System.out.println(f.apply("123"));
         System.out.println(result);
-
     }
 }
