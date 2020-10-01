@@ -51,8 +51,6 @@ public class ExampleMain {
 //        }
 //        System.out.println();
 //        // Output: 1
-
-
         String a = "choi";
         String b = "choi";
         String c = new String("choi");
