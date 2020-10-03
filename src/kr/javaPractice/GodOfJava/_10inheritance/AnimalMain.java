@@ -11,5 +11,6 @@ public class AnimalMain {
 
         dog.age();
         cat.age();
+
     }
 }
