@@ -24,7 +24,7 @@ public class ArrayLinkedList {
         System.out.println(linkedList);
         System.out.println(linkedList.get(0));
         System.out.println("ck");
-        String[] strlist1 = arrayList.toArray(new String[2]);
+        String[] strlist1 = arrayList.toArray(new String[10]);
 
         System.out.println(Arrays.toString(strlist1));
 
