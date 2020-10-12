@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         Main.func("2","3");
+        Main.func(1,3);
     }
     static void func() {
         System.out.println("매개변수 없음"); // "매개변수 없음"을 출력한다.
