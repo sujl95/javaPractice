@@ -1,13 +1,12 @@
-package kr.javaPractice;
+package kr.javaPractice.GodOfJava.ETC;
 
-import java.util.ArrayList;
+import kr.javaPractice.Main;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
-public class Main {
-
-    public static void main(String[] args)  throws Exception{
+public class ExampleLogger {
+    public static void main(String[] args) {
         Logger logger = Logger.getLogger(Main.class.getName());
 
         int[] arr = new int[5];
