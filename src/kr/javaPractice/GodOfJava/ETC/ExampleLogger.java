@@ -6,8 +6,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class ExampleLogger {
+    private static Logger logger = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
-        Logger logger = Logger.getLogger(Main.class.getName());
+
 
         int[] arr = new int[5];
         try{
@@ -19,5 +20,6 @@ public class ExampleLogger {
             logger.info(e.toString());
             e.printStackTrace();
         }
+        System.out.println();
     }
 }
