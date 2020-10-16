@@ -11,10 +11,6 @@ import java.util.logging.Logger;
 public class ExampleLogger {
     private static Logger logger = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>();
-        list.add("123");
-        list.add("123");
-        System.out.println(list);
 
         int[] arr = new int[5];
         try{
