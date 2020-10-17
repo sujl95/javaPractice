@@ -8,11 +8,14 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static java.lang.System.gc;
+
 public class ExampleLogger {
     private static Logger logger = Logger.getLogger(Main.class.getName());
     public static void main(String[] args) {
 
         int[] arr = new int[5];
+        System.gc();
         try{
             System.out.println(arr);
             System.out.println(arr[5]);
