@@ -15,7 +15,6 @@ public class ExampleLogger {
     public static void main(String[] args) {
 
         int[] arr = new int[5];
-        System.gc();
         try{
             System.out.println(arr);
             System.out.println(arr[5]);
