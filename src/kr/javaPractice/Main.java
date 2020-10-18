@@ -8,17 +8,6 @@ import java.util.logging.Logger;
 public class Main {
 
     public static void main(String[] args)  throws Exception{
-        Logger logger = Logger.getLogger(Main.class.getName());
 
-        int[] arr = new int[5];
-        try{
-            System.out.println(arr[5]);
-        } catch (Exception e) {
-            logger.log(Level.SEVERE,"SEVERE, {0}" ,e.toString());
-            logger.log(Level.WARNING, "WARING, {0}",e.toString());
-            logger.log(Level.INFO, "INFO, {0}" , e.toString());
-            logger.info(e.toString());
-            e.printStackTrace();
-        }
     }
 }
