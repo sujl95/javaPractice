@@ -12,4 +12,11 @@ public class CastingDTO implements Serializable {
     public void setObject(Object object) {
         this.object = object;
     }
+
+    @Override
+    public String toString() {
+        return "CastingDTO{" +
+                "object=" + object +
+                '}';
+    }
 }
