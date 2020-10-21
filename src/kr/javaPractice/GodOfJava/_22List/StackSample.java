@@ -14,7 +14,6 @@ public class StackSample {
             intStack.push(loop);
             System.out.println(intStack.peek());
         }
-
         System.out.println("size= " + intStack.size());
     }
 }
