@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class ListSample {
     public static void main(String[] args) {
         ListSample sample = new ListSample();
-        sample.checkArrayList8();
+        sample.checkArrayList2();
     }
 
     public void checkArrayList1() {
@@ -30,9 +30,10 @@ public class ListSample {
         ArrayList<String> list2 = new ArrayList<String>();
         list2.add("0 ");
         list2.addAll(list);
-        for (String tempData : list2) {
-            System.out.println(tempData);
-        }
+        list2.forEach(System.out::println);
+//        for (String tempData : list2) {
+//            System.out.println(tempData);
+//        }
 
         System.out.println(list2);
 
