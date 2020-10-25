@@ -1,5 +1,6 @@
 package kr.javaPractice;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.logging.Level;
@@ -34,6 +35,12 @@ public class Main {
         System.out.println("aa="+utf165);
         System.out.println(new String("한".getBytes(),"UTF-8"));
         System.out.println("\uD83D\uDE00".getBytes().length);
+        BigDecimal bd1 = new BigDecimal("1.11234");
+        BigDecimal bd2 = new BigDecimal("1.11234");
+        System.out.println(bd1.toString()+bd2.toString());
+        float f = 1.11234f;
+        float f1 = 1.112341f;
+        System.out.println(f+f1);
 
 
     }
