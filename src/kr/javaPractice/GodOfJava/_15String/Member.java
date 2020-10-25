@@ -1,6 +1,5 @@
 package kr.javaPractice.GodOfJava._15String;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
 
 import java.io.Serializable;
 

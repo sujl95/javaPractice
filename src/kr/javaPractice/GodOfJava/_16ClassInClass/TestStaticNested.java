@@ -1,4 +1,4 @@
-package kr.javaPractice.GodOfJava;
+package kr.javaPractice.GodOfJava._16ClassInClass;
 
 public class TestStaticNested {
     public static void main(String[] args) {

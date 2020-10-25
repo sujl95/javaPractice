@@ -56,7 +56,6 @@ public class ListSample {
         list.add("A");
         String[] strList = list.toArray(new String[0]);
         System.out.println(Arrays.toString(strList));
-
     }
 
     public void checkArrayList7() {

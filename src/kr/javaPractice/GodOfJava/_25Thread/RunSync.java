@@ -1,15 +1,20 @@
 package kr.javaPractice.GodOfJava._25Thread;
 
+import java.util.ArrayList;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.Vector;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class RunSync {
     public static void main(String[] args) {
+
         RunSync runSync = new RunSync();
         for (int loop = 0; loop < 5; loop++) {
             runSync.runCommonCalculate();
         }
+
     }
 
     public void runCommonCalculate() {
