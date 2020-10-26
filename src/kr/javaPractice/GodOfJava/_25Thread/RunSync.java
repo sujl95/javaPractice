@@ -15,6 +15,8 @@ public class RunSync {
             runSync.runCommonCalculate();
         }
 
+
+
     }
 
     public void runCommonCalculate() {

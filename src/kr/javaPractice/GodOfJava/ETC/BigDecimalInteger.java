@@ -1,13 +1,19 @@
 package kr.javaPractice.GodOfJava.ETC;
 
 import java.math.BigDecimal;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 public class BigDecimalInteger {
     public static void main(String[] args) {
 //        BigDecimalCalc();
 //        BigDecimalCasting();
-        System.out.println(2.0-1.1);
+        Queue<Integer> q = new LinkedList<>();
+        q.add(1);
+        q.add(2);
+        q.add(3);
+        for(int number : q ) System.out.println(number);
     }
 
     private static void BigDecimalCalc() {
