@@ -1,6 +1,10 @@
 package kr.javaPractice.GodOfJava._27SerializableAndNIO;
 
-public class SerialDTO {
+import java.io.Serializable;
+
+public class SerialDTO implements Serializable {
+    static final long serialVersionUID=1L;
+    private String bookType = "IT";
     private String bookName;
     private int bookOrder;
     private boolean bestSeller;
@@ -17,7 +21,8 @@ public class SerialDTO {
     @Override
     public String toString() {
         return "SerialDTO{" +
-                "bookName='" + bookName + '\'' +
+                "bookType='" + bookType + '\'' +
+                ", bookName='" + bookName + '\'' +
                 ", bookOrder=" + bookOrder +
                 ", bestSeller=" + bestSeller +
                 ", soldPerDay=" + soldPerDay +
