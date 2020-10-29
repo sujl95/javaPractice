@@ -10,6 +10,7 @@ import java.util.logging.Logger;
 public class Main {
 
     public static void main(String[] args)  throws Exception{
+        ArrayList<String> list = new ArrayList<>();
         int utf8 = "한".getBytes("UTF-8").length;
         int utf81 = "a".getBytes("UTF-8").length;
         int utf82 = "A".getBytes("UTF-8").length;
