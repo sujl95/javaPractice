@@ -3,6 +3,7 @@ package kr.javaPractice.GodOfJava._32Java8;
 import javax.swing.text.html.Option;
 import java.util.Optional;
 import java.util.StringJoiner;
+import java.util.function.IntBinaryOperator;
 import java.util.function.Supplier;
 
 public class Test {
@@ -11,8 +12,10 @@ public class Test {
 //        Optional<String> nullableString = Optional.ofNullable(common);
 //        getOptionalData(nullableString);
 
-        joinStringOnlyComma(new String[]{"Study", "GodOfJava", "Book"});
-        joinString(new String[]{"Study", "GodOfJava", "Book"});
+//        joinStringOnlyComma(new String[]{"Study", "GodOfJava", "Book"});
+//        joinString(new String[]{"Study", "GodOfJava", "Book"});
+        System.out.println();
+
 
     }
 
