@@ -2,13 +2,18 @@ package kr.javaPractice.GodOfJava._32Java8;
 
 import javax.swing.text.html.Option;
 import java.util.Optional;
+import java.util.StringJoiner;
 import java.util.function.Supplier;
 
 public class Test {
     public static void main(String[] args) throws Exception {
-        String common = "common";
-        Optional<String> nullableString = Optional.ofNullable(common);
-        getOptionalData(nullableString);
+//        String common = "common";
+//        Optional<String> nullableString = Optional.ofNullable(common);
+//        getOptionalData(nullableString);
+
+        joinStringOnlyComma(new String[]{"Study", "GodOfJava", "Book"});
+        joinString(new String[]{"Study", "GodOfJava", "Book"});
+
     }
 
     private static void createOptionalObjects() {
@@ -50,5 +55,21 @@ public class Test {
         System.out.println(result3);
         String result4 = data.orElseThrow(exceptionSupplier); //4
         System.out.println(result4);
+    }
+
+    public static void joinStringOnlyComma(String...stringArray) {
+        StringJoiner joiner = new StringJoiner(",");
+        for (String string : stringArray) {
+            joiner.add(string);
+        }
+        System.out.println(joiner);
+    }
+
+    public static void joinString(String...stringArrray) {
+        StringJoiner joiner = new StringJoiner(",", "(", ")");
+        for (String string : stringArrray) {
+            joiner.add(string);
+        }
+        System.out.println(joiner);
     }
 }
