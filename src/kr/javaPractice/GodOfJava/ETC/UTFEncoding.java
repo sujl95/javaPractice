@@ -16,6 +16,7 @@ public class UTFEncoding {
         int utf163 = "A".getBytes("UTF-16").length;
         int utf164 = "a".getBytes("UTF-16").length;
         int utf165 = "aa".getBytes("UTF-16").length;
+        int utf166 = "가".getBytes("UTF-16").length;
         String s = "a";
         char c = '한';
 
@@ -29,6 +30,7 @@ public class UTFEncoding {
         System.out.println("A="+utf163);
         System.out.println("a="+utf164);
         System.out.println("aa="+utf165);
+        System.out.println("가="+utf166);
         System.out.println(new String("한".getBytes(),"UTF-8"));
         System.out.println("\uD83D\uDE00".getBytes().length);
         BigDecimal bd1 = new BigDecimal("1.11234");
