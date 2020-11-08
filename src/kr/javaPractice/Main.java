@@ -17,8 +17,6 @@ public class Main {
         Integer a3 = a+a1;
 
         System.out.println(a2.equals(a3));
-
-
         System.out.println(a.hashCode());
         System.out.println(a1.hashCode());
         System.out.println(a2.hashCode());
