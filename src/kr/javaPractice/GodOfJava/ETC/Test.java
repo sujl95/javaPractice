@@ -1,6 +1,7 @@
 package kr.javaPractice.GodOfJava.ETC;
 
 import java.util.HashMap;
+import java.util.concurrent.locks.Lock;
 
 public class Test {
     public static void main(String[] args) {
@@ -11,6 +12,11 @@ public class Test {
         Product product1 = new Product(3, "product1");
         map.put(new User(3,"user2"), new Product(4,"product2"));
         map.put(user,product);
+        user.setCnt(2);
+        user.setName("userchange");
+        System.out.println(map.get(user));
+        System.out.println(user.getCnt());
+
 //        map.put(user1, product);
 //        map.put(user,product1);
         map.put(user1, product1);
@@ -23,6 +29,7 @@ public class Test {
 
         System.out.println(map.get(user));
         System.out.println(map.get(user1));
+        System.out.println(map.put(new User(1, "user"),product));
         System.out.println(map.get(new User(1, "user")));
         System.out.println(product2);
         System.out.println(map.get(new User(2,"user1")));
