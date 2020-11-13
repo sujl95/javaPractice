@@ -23,7 +23,7 @@ public class MultiThreadSample {
 
         Thread thread2 = new Thread(() ->{
             System.out.println("thread2 before call " + LocalDateTime.now());
-            sample1.syncMethod1("from thread2");
+            sample.syncMethod2("from thread2");
             System.out.println("thread2 after call " + LocalDateTime.now());
         });
 
@@ -31,43 +31,24 @@ public class MultiThreadSample {
         thread2.start();
     }
 
-    private synchronized static void syncMethod1 (String msg) {
+    private synchronized void syncMethod1 (String msg) {
         System.out.println("in the syncMethod1 " + msg + " " + LocalDateTime.now());
         try {
-            TimeUnit.SECONDS.sleep(5);
+            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
 
-    private synchronized static void syncMethod2 (String msg) {
+    private synchronized void syncMethod2 (String msg) {
         System.out.println("in the syncMethod2 "+msg+" "+ LocalDateTime.now());
         try {
-            TimeUnit.SECONDS.sleep(5);
+            TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
     }
 
-    private static void contextLoads () {
-        System.out.println(LocalDateTime.now());
-        Thread t1  = new Thread(() -> {
-            System.out.println("start1");
-            t1("z1");
-        });
-
-        Thread t2  = new Thread(() -> {
-            System.out.println("start2");
-            t1("z2");
-        });
-
-        t1.start();
-        t2.start();
-
-        while (true) {
-
-        }
-    }
 
     private synchronized static void t1 ( String s) {
         System.out.println("ZIC "+ s + " " + LocalDateTime.now());
