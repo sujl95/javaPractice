@@ -1,9 +1,13 @@
 package kr.javaPractice.GodOfJava._27SerializableAndNIO;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.spi.FileSystemProvider;
 
 public class NioSample {
     public static void main(String[] args) {
