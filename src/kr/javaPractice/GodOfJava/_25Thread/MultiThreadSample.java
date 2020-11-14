@@ -11,7 +11,6 @@ public class MultiThreadSample {
         multiThreadTest();
 //        contextLoads();
     }
-
     private static void multiThreadTest() {
         MultiThreadSample sample = new MultiThreadSample();
         MultiThreadSample sample1 = new MultiThreadSample();

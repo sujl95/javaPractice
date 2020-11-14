@@ -4,6 +4,7 @@ import kr.javaPractice.GodOfJava.ETC.Product;
 import kr.javaPractice.GodOfJava.ETC.User;
 
 import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class HashMapSample {
     public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class HashMapSample {
         user.setName("userchange");
         System.out.println(map.get(user));
         System.out.println(user.getCnt());
-
+        ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
 //        map.put(user1, product);
 //        map.put(user,product1);
         map.put(user1, product1);
