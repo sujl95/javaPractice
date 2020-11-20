@@ -5,7 +5,7 @@ import java.math.BigInteger;
 public class JavaLangNumber {
     public static void main(String[] args) {
         JavaLangNumber sample = new JavaLangNumber();
-        sample.printNull();
+        sample.unsignedCheck();
     }
 
     public void numberTypeCheck() {
@@ -34,6 +34,10 @@ public class JavaLangNumber {
         System.out.println("Float min="+Float.MIN_VALUE+" max="+Float.MAX_VALUE);
         System.out.println("Double min="+Double.MIN_VALUE+" max="+Double.MAX_VALUE);
         System.out.println("Character min="+(int)Character.MIN_VALUE+" max="+(int)Character.MAX_VALUE);
+        int unsignedInt = Integer.parseUnsignedInt("4294967295");
+        System.out.println("unsignedInt = "+Integer.toUnsignedString(unsignedInt));
+        long unsignedLong = Long.parseUnsignedLong("17916881237904312345");
+        System.out.println("unsignedLong = " + Long.toUnsignedString(unsignedLong));
     }
 
     public void toBinaryString() {
@@ -57,5 +61,17 @@ public class JavaLangNumber {
     public void printNull() {
         Object obj = null;
         System.out.println(obj+" is object's value");
+    }
+
+    public void unsignedCheck() {
+        int i, j;
+        i = -1;
+        i /= 2;
+        System.out.println(Integer.toUnsignedString(i));
+
+        float f = 3.1f;
+        boolean b = true;
+        char a = 'A';
+        System.out.println(f);
     }
 }

@@ -1,6 +1,9 @@
 package kr.javaPractice.JavaOOP.ETC;
 
 
+import java.sql.Timestamp;
+import java.util.Date;
+
 class Animal {
     void method() {
         System.out.println("Animal");
