@@ -3,6 +3,7 @@ package kr.javaPractice.GodOfJava._27SerializableAndNIO;
 import java.io.Serializable;
 
 public class SerialDTO implements Serializable {
+    //Serializable  있는 이유 타겟팅을 하기위해서
     static final long serialVersionUID=1L;
     private String bookType = "IT";
     private String bookName;
