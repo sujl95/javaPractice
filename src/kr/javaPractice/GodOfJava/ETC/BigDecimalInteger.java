@@ -18,7 +18,6 @@ public class BigDecimalInteger {
         System.out.println("뺄셈(-) : "+bd.subtract(bd1));
         System.out.println("곱셈(*) : "+bd.multiply(bd1));
         System.out.println("나눗셈(/) : "+bd.divide(bd1));
-        System.out.println("나머지(%) : "+bd.remainder(bd1));
     }
 
     private static void BigDecimalCasting() {
