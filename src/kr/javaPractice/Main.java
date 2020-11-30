@@ -18,5 +18,6 @@ public class Main{
     public static void main (String[] args){
         Parent obj = new Child();
         System.out.print(obj.compute(4));
+        System.out.println( 50000);
     }
 }
