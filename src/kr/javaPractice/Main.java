@@ -1,8 +1,5 @@
 package kr.javaPractice;
 
-
-import java.util.*;
-
 class Parent{
     int compute(int num) {
         if( num <= 1) return num;
