@@ -37,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="e085cfa5-54e5-476a-95bb-587609491509" />
   <component name="ProjectId" id="1jEoj8bpG61zBPeTUwvcUFIqBxJ" />
@@ -52,27 +52,27 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/out/production/javaPractice/kr/javaPractice/JavaOOP/DesignPattern/proxyPattern/IService.class" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/javaPractice" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="kr.javaPractice.JavaOOP.DesignPattern.FactoryMethodPattern" />
-      <recent name="kr.javaPractice.GodOfJava._25Thread" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\이성준\git\javaPractice\src\kr\javaPractice\GodOfJava\ETC" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kr.javaPractice.JavaOOP.DesignPattern.templateCallbackPattern" />
       <recent name="kr.javaPractice.JavaOOP.DesignPattern.decoratorPattern" />
       <recent name="kr.javaPractice.GodOfJava._31Java7" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\이성준\git\javaPractice\src\kr\javaPractice\GodOfJava\ETC" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="kr.javaPractice.JavaOOP.DesignPattern.FactoryMethodPattern" />
+      <recent name="kr.javaPractice.GodOfJava._25Thread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Driver">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kr.javaPractice.JavaOOP.DesignPattern.strategyPattern.Client" />
       <module name="javaPractice" />
@@ -160,11 +160,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InterfaceExample" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,8 @@
       <workItem from="1606706943861" duration="9814000" />
       <workItem from="1606799646885" duration="10153000" />
       <workItem from="1606822887653" duration="6671000" />
-      <workItem from="1606845246565" duration="1395000" />
+      <workItem from="1606845246565" duration="646000" />
+      <workItem from="1606846325834" duration="407000" />
     </task>
     <task id="LOCAL-00012" summary="Thread">
       <created>1603726539880</created>
@@ -611,10 +612,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="79" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606758809085" />
-    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1603888472640">
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1606846512476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603888472640" />
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606846512476" />
     <state width="914" height="239" key="GridCell.Tab.0.bottom" timestamp="1606845275717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
