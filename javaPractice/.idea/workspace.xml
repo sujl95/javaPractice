@@ -61,17 +61,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\이성준\git\javaPractice\src\kr\javaPractice\GodOfJava\ETC" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="kr.javaPractice.JavaOOP.DesignPattern.FactoryMethodPattern" />
+      <recent name="kr.javaPractice.GodOfJava._25Thread" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kr.javaPractice.JavaOOP.DesignPattern.templateCallbackPattern" />
       <recent name="kr.javaPractice.JavaOOP.DesignPattern.decoratorPattern" />
       <recent name="kr.javaPractice.GodOfJava._31Java7" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="kr.javaPractice.JavaOOP.DesignPattern.FactoryMethodPattern" />
-      <recent name="kr.javaPractice.GodOfJava._25Thread" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\이성준\git\javaPractice\src\kr\javaPractice\GodOfJava\ETC" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
