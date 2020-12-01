@@ -1,4 +1,4 @@
-package kr.javaPractice.JavaOOP.DesignPattern.TemplateMethodPattern;
+package kr.javaPractice.JavaOOP.DesignPattern.templateMethodPattern;
 
 public class Driver {
     public static void main(String[] args) {
