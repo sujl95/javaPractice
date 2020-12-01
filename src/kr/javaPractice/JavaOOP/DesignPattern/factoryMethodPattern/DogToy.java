@@ -1,4 +1,4 @@
-package kr.javaPractice.JavaOOP.DesignPattern.FactoryMethodPattern;
+package kr.javaPractice.JavaOOP.DesignPattern.factoryMethodPattern;
 
 // 팩토리 메서드가 생성할 객체
 public class DogToy extends AnimalToy{

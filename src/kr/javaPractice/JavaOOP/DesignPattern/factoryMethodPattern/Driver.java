@@ -1,4 +1,4 @@
-package kr.javaPractice.JavaOOP.DesignPattern.FactoryMethodPattern;
+package kr.javaPractice.JavaOOP.DesignPattern.factoryMethodPattern;
 
 public class Driver {
     public static void main(String[] args) {

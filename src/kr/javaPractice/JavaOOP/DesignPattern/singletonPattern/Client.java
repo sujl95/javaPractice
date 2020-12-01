@@ -1,4 +1,4 @@
-package kr.javaPractice.JavaOOP.DesignPattern.SingletonPattern;
+package kr.javaPractice.JavaOOP.DesignPattern.singletonPattern;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package kr.javaPractice.JavaOOP.DesignPattern.SingletonPattern;
+package kr.javaPractice.JavaOOP.DesignPattern.singletonPattern;
 
 public class Singleton {
     static Singleton singletonObject; // 정적 참조 변수
