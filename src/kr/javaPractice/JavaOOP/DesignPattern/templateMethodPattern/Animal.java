@@ -7,7 +7,6 @@ public abstract class Animal {
         play();
         runSomething();
         System.out.println("잘했어");
-
     }
 
     abstract void play();
