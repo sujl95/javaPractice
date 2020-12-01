@@ -195,7 +195,7 @@
       <workItem from="1606706943861" duration="9814000" />
       <workItem from="1606799646885" duration="10153000" />
       <workItem from="1606822887653" duration="6671000" />
-      <workItem from="1606845246565" duration="1395000" />
+      <workItem from="1606845246565" duration="2814000" />
     </task>
     <task id="LOCAL-00012" summary="Thread">
       <created>1603726539880</created>
@@ -611,26 +611,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="79" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606758809085" />
-    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1603888472640">
+    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1606846840057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603888472640" />
-    <state width="914" height="239" key="GridCell.Tab.0.bottom" timestamp="1606845275717">
+    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606846840057" />
+    <state width="914" height="239" key="GridCell.Tab.0.bottom" timestamp="1606848743754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606845275717" />
-    <state width="914" height="239" key="GridCell.Tab.0.center" timestamp="1606845275717">
+    <state width="914" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606848743754" />
+    <state width="914" height="239" key="GridCell.Tab.0.center" timestamp="1606848743754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606845275717" />
-    <state width="914" height="239" key="GridCell.Tab.0.left" timestamp="1606845275717">
+    <state width="914" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606848743754" />
+    <state width="914" height="239" key="GridCell.Tab.0.left" timestamp="1606848743754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606845275717" />
-    <state width="914" height="239" key="GridCell.Tab.0.right" timestamp="1606845275717">
+    <state width="914" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606848743754" />
+    <state width="914" height="239" key="GridCell.Tab.0.right" timestamp="1606848743754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606845275717" />
+    <state width="914" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606848743754" />
     <state width="1260" height="344" key="GridCell.Tab.1.bottom" timestamp="1606752817554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -687,10 +687,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603646490532" />
-    <state x="678" y="133" key="new project wizard" timestamp="1603735184333">
+    <state x="678" y="133" key="new project wizard" timestamp="1606846852420">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="678" y="133" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603735184333" />
+    <state x="678" y="133" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606846852420" />
     <state x="1023" y="253" width="700" height="530" key="recent.locations.popup" timestamp="1605290066356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

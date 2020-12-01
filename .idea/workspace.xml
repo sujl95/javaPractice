@@ -22,7 +22,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3ce921-1498-4cea-b528-feddf536cce3" name="Default Changelist" comment="update" />
+    <list default="true" id="0e3ce921-1498-4cea-b528-feddf536cce3" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExpertSpring30/src/test/java/me/thewing/expert001_01/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpertSpring30/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ExpertSpring30/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/AmericaTire.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/AmericaTire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/KoreaTire.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/KoreaTire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExpertSpring30/src/main/java/me/thewing/expert001_01/Tire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaPractice/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +206,7 @@
       <workItem from="1606799646885" duration="10153000" />
       <workItem from="1606822887653" duration="6671000" />
       <workItem from="1606845246565" duration="646000" />
-      <workItem from="1606846325834" duration="407000" />
+      <workItem from="1606846325834" duration="992000" />
     </task>
     <task id="LOCAL-00012" summary="Thread">
       <created>1603726539880</created>
