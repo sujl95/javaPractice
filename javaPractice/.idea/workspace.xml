@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e3ce921-1498-4cea-b528-feddf536cce3" name="Default Changelist" comment="update" />
+    <list default="true" id="0e3ce921-1498-4cea-b528-feddf536cce3" name="Default Changelist" comment="Start4_MethodStackFrame&#10;Start5_StaticVariable">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/out/production/javaPractice/kr/javaPractice/JavaOOP/DesignPattern/proxyPattern/IService.class" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -63,42 +68,16 @@
       <recent name="kr.javaPractice.JavaOOP.DesignPattern.FactoryMethodPattern" />
       <recent name="kr.javaPractice.GodOfJava._25Thread" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\이성준\git\javaPractice\src\kr\javaPractice\GodOfJava\ETC" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="kr.javaPractice.JavaOOP.DesignPattern.templateCallbackPattern" />
       <recent name="kr.javaPractice.JavaOOP.DesignPattern.decoratorPattern" />
       <recent name="kr.javaPractice.GodOfJava._31Java7" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\이성준\git\javaPractice\src\kr\javaPractice\GodOfJava\ETC" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Driver">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kr.javaPractice.JavaOOP.DesignPattern.strategyPattern.Client" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kr.javaPractice.JavaOOP.DesignPattern.strategyPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kr.javaPractice.JavaOOP.DesignPattern.templateCallbackPattern.Client" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kr.javaPractice.JavaOOP.DesignPattern.templateCallbackPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Start5_StaticVariable">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="kr.javaPractice.JavaOOP.DesignPattern.templateMethodPattern.Driver" />
       <module name="javaPractice" />
@@ -125,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kr.javaPractice.InterfaceExample" />
+    <configuration name="Start4_MethodStackFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.javaPractice.JavaOOP.TMemory.Start4_MethodStackFrame" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kr.javaPractice.*" />
+          <option name="PATTERN" value="kr.javaPractice.JavaOOP.TMemory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,33 +117,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kr.javaPractice.Main" />
+    <configuration name="Start5_StaticVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.javaPractice.JavaOOP.TMemory.Start5_StaticVariable" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kr.javaPractice.*" />
+          <option name="PATTERN" value="kr.javaPractice.JavaOOP.TMemory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="blockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.javaPractice.JavaOOP.TMemory.blockTest" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.javaPractice.JavaOOP.TMemory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="nonStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kr.javaPractice.JavaOOP.TMemory.nonStatic" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kr.javaPractice.JavaOOP.TMemory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Driver" />
-      <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.Client (2)" />
-      <item itemvalue="Application.InterfaceExample" />
-      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.nonStatic" />
+      <item itemvalue="Application.blockTest" />
+      <item itemvalue="Application.Start4_MethodStackFrame" />
+      <item itemvalue="Application.Start5_StaticVariable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Start5_StaticVariable" />
+        <item itemvalue="Application.Start4_MethodStackFrame" />
+        <item itemvalue="Application.blockTest" />
+        <item itemvalue="Application.nonStatic" />
         <item itemvalue="Application.Driver" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.InterfaceExample" />
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -196,20 +214,8 @@
       <workItem from="1606799646885" duration="10153000" />
       <workItem from="1606822887653" duration="6671000" />
       <workItem from="1606845246565" duration="2814000" />
-    </task>
-    <task id="LOCAL-00012" summary="Thread">
-      <created>1603726539880</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1603726539880</updated>
-    </task>
-    <task id="LOCAL-00013" summary="26IO">
-      <created>1603804534786</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1603804534786</updated>
+      <workItem from="1607262804779" duration="470000" />
+      <workItem from="1607263287242" duration="4933000" />
     </task>
     <task id="LOCAL-00014" summary="27Serializable">
       <created>1603811010719</created>
@@ -540,7 +546,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606845291699</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="TmemoryStart">
+      <created>1607264260708</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1607264260708</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Start4_MethodStackFrame&#10;Start5_StaticVariable">
+      <created>1607268057332</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1607268057332</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,8 +579,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MultiThreadSample update" />
-    <MESSAGE value="MultiThreadSample&#10;RunThreads&#10;HashMapSample&#10;Update" />
     <MESSAGE value="File FilesSample" />
     <MESSAGE value="BufferedWriterSample&#10;WriterSample" />
     <MESSAGE value="자바 객체지향의 원리와 이해 CallByValue, CallByReference,&#10;super" />
@@ -584,120 +602,68 @@
     <MESSAGE value="template Method Pattern" />
     <MESSAGE value="Template Callback Pattern" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="TmemoryStart" />
+    <MESSAGE value="Start4_MethodStackFrame&#10;Start5_StaticVariable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start4_MethodStackFrame&#10;Start5_StaticVariable" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="1175" y="343" key="#Notifications" timestamp="1604940679828">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1175" y="343" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604940679828" />
-    <state x="1144" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606403250236">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1144" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606403250236" />
-    <state x="237" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1606823398762">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="237" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606823398762" />
-    <state x="160" y="258" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606822801074">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="160" y="258" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606822801074" />
-    <state x="1222" y="416" width="531" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606794478133">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1222" y="416" width="531" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1606794478133" />
-    <state x="0" y="79" key="DiffContextDialog" timestamp="1606758809086">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="79" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606758809085" />
-    <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1606846840057">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606846840057" />
-    <state width="914" height="239" key="GridCell.Tab.0.bottom" timestamp="1606848743754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606848743754" />
-    <state width="914" height="239" key="GridCell.Tab.0.center" timestamp="1606848743754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606848743754" />
-    <state width="914" height="239" key="GridCell.Tab.0.left" timestamp="1606848743754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606848743754" />
-    <state width="914" height="239" key="GridCell.Tab.0.right" timestamp="1606848743754">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="914" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606848743754" />
-    <state width="1260" height="344" key="GridCell.Tab.1.bottom" timestamp="1606752817554">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1260" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606752817554" />
-    <state width="1260" height="344" key="GridCell.Tab.1.center" timestamp="1606752817554">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1260" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606752817554" />
-    <state width="1260" height="344" key="GridCell.Tab.1.left" timestamp="1606752817554">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1260" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606752817554" />
-    <state width="1260" height="344" key="GridCell.Tab.1.right" timestamp="1606752817554">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1260" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606752817554" />
-    <state x="969" y="258" key="IDE.errors.dialog" timestamp="1605319150773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="969" y="258" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605319150773" />
-    <state x="294" y="183" key="SettingsEditor" timestamp="1606403431623">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="294" y="183" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606403431623" />
-    <state width="498" height="448" key="SwitcherDM" timestamp="1606826239530">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="498" height="448" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1606826239530" />
-    <state x="72" y="256" width="816" height="514" key="Vcs.Push.Dialog.v2" timestamp="1606845295975">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="72" y="256" width="816" height="514" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606845295975" />
-    <state width="928" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction" timestamp="1603302946236">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="928" height="1038" key="com.intellij.byteCodeViewer.ShowByteCodeAction/0.0.1920.1040@0.0.1920.1040" timestamp="1603302946236" />
-    <state x="0" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606826403067">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606826403067" />
-    <state x="1255" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606818155958">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1255" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606818155958" />
-    <state x="690" y="279" key="extract.method.dialog" timestamp="1604855493777">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="279" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604855493777" />
-    <state x="1113" y="179" width="654" height="688" key="find.popup" timestamp="1603973367335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1113" y="179" width="654" height="688" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603973367335" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1603646490532">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603646490532" />
-    <state x="678" y="133" key="new project wizard" timestamp="1606846852420">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="678" y="133" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606846852420" />
-    <state x="1023" y="253" width="700" height="530" key="recent.locations.popup" timestamp="1605290066356">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1023" y="253" width="700" height="530" key="recent.locations.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605290066356" />
-    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1605789879033">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605789879033" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/nonStatic.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/nonStatic.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/nonStatic.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/nonStatic.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/nonStatic.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/nonStatic.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/Start5_StaticVariable.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/Start5_StaticVariable.java</url>
+          <line>3</line>
+          <properties field="share" class="kr.javaPractice.JavaOOP.TMemory.Start5_StaticVariable" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/kr/javaPractice/JavaOOP/TMemory/Start5_StaticVariable.java</url>
+          <line>17</line>
+          <properties class="kr.javaPractice.JavaOOP.TMemory.Start5_StaticVariable" method="fun">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javaPractice$nonStatic.ic" NAME="nonStatic Coverage Results" MODIFIED="1607263634269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>kr.javaPractice.JavaOOP.TMemory.*</FILTER>
+    </SUITE>
   </component>
 </project>
