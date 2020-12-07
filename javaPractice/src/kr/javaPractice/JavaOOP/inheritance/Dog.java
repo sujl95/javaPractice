@@ -10,8 +10,12 @@ public class Dog extends Animal {
 
     public String habit;
 
+    public Dog() {
+        System.out.println("dog create");
+    }
+
     public void showHabit() {
-        System.out.println("bow! " + habit);
+        System.out.println("bow! " + habit +" name = "+name);
     }
 
     @Override

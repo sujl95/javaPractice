@@ -10,12 +10,24 @@ public class Test {
         dog.showHabit();
         dog.showName();
         dog.showName("자식");
+        System.out.println(Dog.i);
 
+        System.out.println(Dog.i);
 //        dog = new Animal();
 
         Animal animal = new Dog();
         animal.name = "사모예드";
+
+
         animal.showName();
+
+        new Dog();
+        new Dog();
+        new Dog();
+        new Dog();
+        new Dog();
+        new Dog();
+        new Dog();
 
     }
 
