@@ -21,13 +21,21 @@ public class Test {
 
         animal.showName();
 
+        Dog dog1 = new Dog();
+        Dog dog2 = new Dog();
+        Dog dog3 = new Dog();
+        Dog dog4 = new Dog();
+        Dog dog5 = new Dog();
+        Dog dog6 = new Dog();
+        Dog dog7 = new Dog();
+
+
         new Dog();
         new Dog();
-        new Dog();
-        new Dog();
-        new Dog();
-        new Dog();
-        new Dog();
+
+
+
+
 
     }
 
