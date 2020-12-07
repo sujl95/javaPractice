@@ -15,6 +15,7 @@ public class Start5_StaticVariable {
         System.out.println(variable.var);
 
         System.out.println(staticTest.i);
+        System.out.println(staticTest.i);
     }
 
     private static int fun(int m, int p) {
