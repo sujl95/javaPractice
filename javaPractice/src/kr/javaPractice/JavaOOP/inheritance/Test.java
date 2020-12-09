@@ -14,13 +14,11 @@ public class Test {
 
         System.out.println(Dog.i);
 //        dog = new Animal();
-
         Animal animal = new Dog();
         animal.name = "사모예드";
-
-
         animal.showName();
 
+        
         Dog dog1 = new Dog();
         Dog dog2 = new Dog();
         Dog dog3 = new Dog();
@@ -28,8 +26,6 @@ public class Test {
         Dog dog5 = new Dog();
         Dog dog6 = new Dog();
         Dog dog7 = new Dog();
-
-
         new Dog();
         new Dog();
 
