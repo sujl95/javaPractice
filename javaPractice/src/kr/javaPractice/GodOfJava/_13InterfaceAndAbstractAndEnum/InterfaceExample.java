@@ -1,4 +1,4 @@
-package kr.javaPractice;
+package kr.javaPractice.GodOfJava._13InterfaceAndAbstractAndEnum;
 
 import kr.javaPractice.GodOfJava._13InterfaceAndAbstractAndEnum.MemberManager;
 import kr.javaPractice.GodOfJava._13InterfaceAndAbstractAndEnum.MemberManagerImpl;
