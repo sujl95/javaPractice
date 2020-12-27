@@ -1,4 +1,4 @@
-package kr.javaPractice.Practice.DesignPattern.Decorator;
+package kr.javaPractice.Practice.DesignPattern.Decorator.Sample1;
 
 public class Decorator implements IService{
     IService iService;
