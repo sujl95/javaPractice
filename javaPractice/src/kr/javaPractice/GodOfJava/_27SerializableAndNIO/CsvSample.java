@@ -2,14 +2,8 @@ package kr.javaPractice.GodOfJava._27SerializableAndNIO;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -18,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CsvSample {
-	private static List<String> list = new ArrayList<>();
+	private static List<String> lines = new ArrayList<>();
 
 
 	public static void main(String[] args) throws Exception {
@@ -38,14 +32,15 @@ public class CsvSample {
 			BufferedWriter bw = Files.newBufferedWriter(fileName2, StandardCharsets.UTF_8)){
 			String line = "";
 			while((line = br.readLine()) != null) {
-				line = line.replace(';',',');
-				line = line.replace("특별자치도", "");
-				line = line.replace("청", "");
-				line = line.replace("라", "");
-				line = line.replace("상", "");
-				line = line.replace("도", "");
-				line = line.replace("특별시", "");
-				line = line.replace("광역시", "");
+				line = line.replace(';',',')
+						.replace("특별자치도", "")
+						.replace("청", "")
+						.replace("라", "")
+						.replace("상", "")
+						.replace("도", "")
+						.replace("특별시", "")
+						.replace("광역시", "");
+				System.out.println(line);
 				bw.append(line);
 				bw.newLine();
 			}
@@ -54,11 +49,10 @@ public class CsvSample {
 
 	private static void writeFile(Path fileName) throws IOException {
 		try (BufferedWriter writer = Files.newBufferedWriter(fileName, StandardCharsets.UTF_8);) {
-			for (String line : list) {
+			for (String line : lines) {
 				writer.append(line);
 				writer.newLine();
 			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -76,9 +70,7 @@ public class CsvSample {
 				line = line.replace("도", "");
 				line = line.replace("특별시", "");
 				line = line.replace("광역시", "");
-				System.out.println(line);
-
-				list.add(line);
+				lines.add(line);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -103,7 +95,7 @@ public class CsvSample {
 				str = str.replace("광역시", "");
 				System.out.println(str);
 
-				list.add(str);
+				lines.add(str);
 			}
 
 		} catch (IOException e) {
