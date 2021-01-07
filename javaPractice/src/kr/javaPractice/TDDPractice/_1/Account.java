@@ -1,4 +1,4 @@
-package kr.javaPractice.test._1;
+package kr.javaPractice.TDDPractice._1;
 
 public class Account {
 	private int balance;
