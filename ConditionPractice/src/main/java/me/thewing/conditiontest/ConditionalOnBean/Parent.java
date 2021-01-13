@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 import me.thewing.conditiontest.ConditionTest2.Client;
 
 @ConditionalOnClass(Client.class)
-// @ConditionalOnBean
-// @ConditionalOnMissingBean
+@ConditionalOnBean
+@ConditionalOnMissingBean
 public class Parent {
 }
 
