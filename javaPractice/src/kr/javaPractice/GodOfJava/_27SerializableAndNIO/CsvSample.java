@@ -4,10 +4,12 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.channels.FileChannel;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,11 +22,36 @@ public class CsvSample {
 		Path fileName = Paths.get("C:\\godofjava\\test.csv");
 		Path fileName2 = Paths.get("C:\\godofjava\\test2.csv");
 		Path fileName3 = Paths.get("C:\\godofjava\\test3.csv");
-		readWriteFile(fileName, fileName3);
+		// readWriteFile(fileName, fileName3);
+		readWriteTest(fileName,fileName3);
 		// readFile(fileName);
 		// writeFile(fileName3);
 		// readEncode(fileName);
 		// readUnicodeJava11(sfileName);
+	}
+
+	private static void readWriteTest(Path fileName, Path fileName2) throws IOException{
+		FileChannel open = FileChannel.open(Paths.get(String.valueOf(fileName)), StandardOpenOption.CREATE_NEW,
+				StandardOpenOption.TRUNCATE_EXISTING);
+		List<String> strings = Files.readAllLines(Paths.get(String.valueOf(fileName2)));
+		System.out.println(strings);
+		try (BufferedReader br = Files.newBufferedReader(fileName, StandardCharsets.UTF_8);
+			 BufferedWriter bw = Files.newBufferedWriter(fileName2, StandardCharsets.UTF_8)){
+			String line = "";
+			while((line = br.readLine()) != null) {
+				line = line.replace(';',',')
+						.replace("특별자치도", "")
+						.replace("청", "")
+						.replace("라", "")
+						.replace("상", "")
+						.replace("도", "")
+						.replace("특별시", "")
+						.replace("광역시", "");
+				System.out.println(line);
+				bw.append(line);
+				bw.newLine();
+			}
+		}
 	}
 
 	private static void readWriteFile(Path fileName, Path fileName2) throws IOException{
