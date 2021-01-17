@@ -1,7 +1,5 @@
 package kr.javaPractice.GodOfJava._25Thread;
 
-import kr.javaPractice.GodOfJava._10inheritance.Parent;
-
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
