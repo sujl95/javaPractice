@@ -1,9 +1,10 @@
 package kr.javaPractice.TDDPractice._1;
 
+import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class AccountTest {
 	private Account account;
